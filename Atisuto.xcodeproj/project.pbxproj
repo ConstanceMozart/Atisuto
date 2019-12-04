@@ -57,6 +57,7 @@
 		89C5E7DA2397BF0F00D716B7 /* Filtres.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Filtres.storyboard; sourceTree = "<group>"; };
 		89C5E7DD2397BFBD00D716B7 /* Profil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profil.storyboard; sourceTree = "<group>"; };
 		89C5E7DF2397C15700D716B7 /* Favoris.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favoris.storyboard; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +118,7 @@
 				89C5E7D82397BBEF00D716B7 /* Publier.storyboard */,
 				89C5E7DA2397BF0F00D716B7 /* Filtres.storyboard */,
 				89C5E7DD2397BFBD00D716B7 /* Profil.storyboard */,
-				89C5E7DF2397C15700D716B7 /* Favoris.storyboard */,
+				89C5E7DF2397C15700D716B7 /* Favoris.storyboard */
 			);
 			path = Atisuto;
 			sourceTree = "<group>";
@@ -251,6 +252,7 @@
 				735B4C052396B6BA0007F9FF /* LaunchScreen.storyboard in Resources */,
 				735B4C022396B6BA0007F9FF /* Assets.xcassets in Resources */,
 				735B4C002396B6BA0007F9FF /* Main.storyboard in Resources */,
+				737B991A2397B3700075447F /* Publier.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,16 @@
                     <view key="view" contentMode="scaleToFill" id="WD1-g8-7xP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHw-JZ-PAQ">
+                                <rect key="frame" x="183" y="639" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Publier"/>
+                                <connections>
+                                    <segue destination="agW-JA-qvr" kind="show" id="emv-fr-Xjp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dpE-K5-pZI"/>
                     </view>
@@ -94,13 +104,23 @@
             </objects>
             <point key="canvasLocation" x="2279" y="214"/>
         </scene>
+        <!--Publier-->
+        <scene sceneID="Tyr-ZI-cHS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Publier" id="agW-JA-qvr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bxH-vw-fUY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AoI-cp-EQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971" y="616"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SJ8-EC-bPC">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bTq-Rg-6l3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nKB-xn-dp6">
-                        <autoresizingMask key="autoresizingMask"/>
+      <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
