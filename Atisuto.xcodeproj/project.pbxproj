@@ -15,6 +15,7 @@
 		735B4C052396B6BA0007F9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735B4C032396B6BA0007F9FF /* LaunchScreen.storyboard */; };
 		735B4C102396B6BA0007F9FF /* AtisutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B4C0F2396B6BA0007F9FF /* AtisutoTests.swift */; };
 		735B4C1B2396B6BA0007F9FF /* AtisutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B4C1A2396B6BA0007F9FF /* AtisutoUITests.swift */; };
+		737B991A2397B3700075447F /* Publier.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737B99192397B3700075447F /* Publier.storyboard */; };
 		89C5E7D72396BC3C00D716B7 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C5E7D62396BC3C00D716B7 /* Test.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		735B4C162396B6BA0007F9FF /* AtisutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtisutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735B4C1A2396B6BA0007F9FF /* AtisutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtisutoUITests.swift; sourceTree = "<group>"; };
 		735B4C1C2396B6BA0007F9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737B99192397B3700075447F /* Publier.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Publier.storyboard; sourceTree = "<group>"; };
 		89C5E7D62396BC3C00D716B7 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				735B4C012396B6BA0007F9FF /* Assets.xcassets */,
 				735B4C032396B6BA0007F9FF /* LaunchScreen.storyboard */,
 				735B4C062396B6BA0007F9FF /* Info.plist */,
+				737B99192397B3700075447F /* Publier.storyboard */,
 			);
 			path = Atisuto;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				89C5E7D72396BC3C00D716B7 /* Test.storyboard in Resources */,
 				735B4C022396B6BA0007F9FF /* Assets.xcassets in Resources */,
 				735B4C002396B6BA0007F9FF /* Main.storyboard in Resources */,
+				737B991A2397B3700075447F /* Publier.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
